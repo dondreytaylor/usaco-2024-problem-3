@@ -1,6 +1,6 @@
-# USACO Solution - JavaScript
+# USACO Solution - Python
 
-This repository contains a JavaScript solution for the USACO problem:
+This repository contains a Python solution for the USACO problem:
 
 **Problem link:** https://usaco.org/index.php?page=viewproblem2&cpid=1397
 
@@ -249,7 +249,7 @@ O(N)
 ```text
 .
 ├── README.md
-└── solution.js
+└── solution.py
 ```
 
 ---
@@ -260,12 +260,12 @@ O(N)
 
 You need:
 
-- [Node.js](https://nodejs.org/) installed
+- Python 3 installed
 
-Check that Node is installed:
+Check that Python is installed:
 
 ```bash
-node -v
+python3 --version
 ```
 
 ---
@@ -275,7 +275,7 @@ node -v
 You can run the file and type input directly:
 
 ```bash
-node solution.js
+python3 solution.py
 ```
 
 Then paste the input and press:
@@ -301,7 +301,7 @@ Create a file called `input.txt`:
 Then run:
 
 ```bash
-node solution.js < input.txt
+python3 solution.py < input.txt
 ```
 
 Example output:
@@ -368,7 +368,7 @@ cd usaco-farm-queries
 Copy these files into the folder:
 
 - `README.md`
-- `solution.js`
+- `solution.py`
 
 Initialize git:
 
@@ -379,13 +379,13 @@ git init
 Add the files:
 
 ```bash
-git add README.md solution.js
+git add README.md solution.py
 ```
 
 Commit them:
 
 ```bash
-git commit -m "Add USACO JavaScript solution"
+git commit -m "Add USACO Python solution"
 ```
 
 Create a new empty GitHub repository on GitHub, then connect it:
@@ -413,7 +413,8 @@ git push -u origin main
 You can also add a `.gitignore` file like this:
 
 ```gitignore
-node_modules/
+__pycache__/
+*.pyc
 *.log
 ```
 
